@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.debug.settings.vmArgs": "-Dfile.encoding=UTF-8",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell UTF8": {
+        "source": "PowerShell",
+        "args": ["-NoExit", "-Command", "chcp 65001"]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell UTF8"
+}
