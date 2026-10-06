@@ -1,6 +1,6 @@
 import ru.ifmo.se.pokemon.*;
 
-public class SwordDance extends StatusMove {
+public final class SwordDance extends StatusMove {
     public SwordDance() {
         super(Type.NORMAL,0,1.0F);
     }

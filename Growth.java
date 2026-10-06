@@ -1,6 +1,6 @@
 import ru.ifmo.se.pokemon.*;
 
-public class Growth extends StatusMove{
+public final class Growth extends StatusMove{
     public Growth() {
         super(Type.NORMAL,0,1.0F);
     }

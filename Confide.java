@@ -1,6 +1,6 @@
 import ru.ifmo.se.pokemon.*;
 
-public class Confide extends StatusMove{
+public final class Confide extends StatusMove{
     public Confide() {
         super(Type.NORMAL,0,1.0F);
     }

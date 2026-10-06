@@ -1,6 +1,6 @@
 import ru.ifmo.se.pokemon.*;
 
-public class AerialAce extends PhysicalMove{
+public final class AerialAce extends PhysicalMove{
     public AerialAce() {
         super(Type.FLYING,60,1.0F);
     }

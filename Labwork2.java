@@ -1,6 +1,6 @@
 import ru.ifmo.se.pokemon.*;
 
-public class Labwork2 {
+public final class Labwork2 {
     public static void main(String[] args) {
         Battle b = new Battle();
         b.addAlly(new Drowzee());

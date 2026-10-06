@@ -1,6 +1,6 @@
 import ru.ifmo.se.pokemon.*;
 
-public class Snarl extends SpecialMove{
+public final class Snarl extends SpecialMove{
     public Snarl() {
         super(Type.DARK,55,0.95F);
     }

@@ -1,6 +1,6 @@
 import ru.ifmo.se.pokemon.*;
 
-public class CalmMind extends StatusMove{
+public final class CalmMind extends StatusMove{
     public CalmMind() {
         super(Type.PSYCHIC,0,1.0F);
     }
