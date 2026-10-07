@@ -5,6 +5,7 @@ public final class DoubleTeam extends StatusMove{
         super(Type.NORMAL,0,1.0F);
     }
 
+    @Override 
     protected java.lang.String describe() {
         return "uses Double Team";
     }
@@ -14,6 +15,7 @@ public final class DoubleTeam extends StatusMove{
         p.addEffect(new Effect().chance(1.0).turns(1).stat(Stat.EVASION, 1));
     }
 
+    @Override 
     protected boolean checkAccuracy(Pokemon att,Pokemon def){
         return true;
     }

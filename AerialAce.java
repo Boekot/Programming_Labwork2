@@ -5,10 +5,12 @@ public final class AerialAce extends PhysicalMove{
         super(Type.FLYING,60,1.0F);
     }
 
+    @Override 
     protected java.lang.String describe() {
         return "uses Aerial Ace";
     }
 
+    @Override 
     protected boolean checkAccuracy(Pokemon att,Pokemon def){
         return true;
     }

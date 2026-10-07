@@ -10,6 +10,7 @@ public final class Snarl extends SpecialMove{
         p.addEffect(new Effect().chance(0.7).turns(1).stat(Stat.SPECIAL_ATTACK, 1));
     }
 
+    @Override
     protected java.lang.String describe() {
         return "uses Snarl";
     }

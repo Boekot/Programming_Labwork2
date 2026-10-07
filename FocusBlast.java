@@ -10,6 +10,7 @@ public final class FocusBlast extends SpecialMove{
         p.addEffect(new Effect().chance(0.1).turns(1).stat(Stat.SPECIAL_DEFENSE, -1));
     }
 
+    @Override
     protected java.lang.String describe() {
         return "uses Focus Blast";
     }

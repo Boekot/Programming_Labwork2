@@ -5,10 +5,12 @@ public final class Facade extends PhysicalMove{
         super(Type.NORMAL,70,1.0F);
     }
 
+    @Override 
     protected java.lang.String describe() {
         return "uses Facade";
     }
 
+    @Override 
     protected double calcBaseDamage(Pokemon var1, Pokemon var2) {
         double pow = this.power;
         switch (var2.getCondition()) {
